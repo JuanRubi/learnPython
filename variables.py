@@ -47,6 +47,12 @@ print(full_name)
 # Type conversion
 num_to_string = str(10)  # integer 10 is converted to a string
 
+# Calculating user's age.
+birth_year = input('What year were you born? ')
+current_year = 2022
+your_age = current_year - int(birth_year)
+print('You are ' + str(your_age) + ' years old.')
+
 # Escape Sequence - backslash quote(s) to tell it quote(s) is a string
 weather = "It\'s \"kind of\" sunny"
 # \t - tab
@@ -83,3 +89,14 @@ print(pet_name[::-1])   # Usefule for reversing a string.
 
 # Immutability
 # You can't change a single part of the string only. MUST CHANGE ENTIRE STRING!
+
+# len() function that returns length of string
+print(len('Hello'))
+
+# String methods.
+quote = 'never give up!'
+# None of these methods change the original string!!!
+print(quote.capitalize())   # Capitalize first letter.
+print(quote.upper())        # Capitalize all letters.
+print(quote.find('up'))     # Returns index of first appearance.
+print(quote)

@@ -7,6 +7,10 @@ print(type(4/8))
 print(2 ** 2)   # ** means to the power of
 print(5 % 4)    # % is modulo
 
+# booleans True/False
+name = 'Juan'
+is_young = True
+
 #-----------------------------------------------------------
 #               Other Data Types
 #-----------------------------------------------------------
