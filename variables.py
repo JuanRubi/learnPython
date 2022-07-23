@@ -93,7 +93,9 @@ print(pet_name[::-1])   # Usefule for reversing a string.
 # len() function that returns length of string
 print(len('Hello'))
 
-# String methods.
+#-----------------------------------------------------------
+#                   String methods.
+#-----------------------------------------------------------
 quote = 'never give up!'
 # None of these methods change the original string!!!
 print(quote.capitalize())   # Capitalize first letter.
